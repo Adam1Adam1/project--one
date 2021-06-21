@@ -8,6 +8,49 @@ The name of your project with deployed URL.
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+"coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 285.79,
+        "feels_like": 285.38,
+        "temp_min": 284.43,
+        "temp_max": 286.87,
+        "pressure": 1017,
+        "humidity": 87
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.24,
+        "deg": 68,
+        "gust": 6.26
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1624313556,
+    "sys": {
+        "type": 2,
+        "id": 2019646,
+        "country": "GB",
+        "sunrise": 1624246986,
+        "sunset": 1624306887
+    },
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+}
 
 ## API and Data Sample
 
