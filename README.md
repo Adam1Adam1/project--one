@@ -8,6 +8,11 @@ The name of your project with deployed URL.
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
+    
+## API and Data Sample
+
+Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 "coord": {
         "lon": -0.1257,
         "lat": 51.5085
@@ -52,11 +57,8 @@ Use this section to describe your final project and perhaps any links to relevan
     "cod": 200
 }
 
-## API and Data Sample
-
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
 ## Wireframes
+<img width="1440" alt="Screen Shot 2021-06-21 at 8 53 35 PM" src="https://user-images.githubusercontent.com/83483989/122846152-3db2ea00-d2d3-11eb-9f17-640fc0d7956f.png">
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
