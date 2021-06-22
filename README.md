@@ -75,17 +75,13 @@ https://openweathermap.org/api
 -use a media query/breakpoint for deskcreens
 - Allow user to choose channels
 
-#### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+#### PostMVP  es.*
 
 - Add second API
 - Use local storage to save user favorites
 
+
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -102,10 +98,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -128,21 +120,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description. 
-function reverseString(str) {
-   
-    let splitString = str.split(""); // let splitString = "hello".split("");
-    // ["h", "e", "l", "l", "o"]
- 
-    let reverseArray = splitString.reverse(); // let  reverseArray = ["h", "e", "l", "l", "o"].reverse();
-    // ["o", "l", "l", "e", "h"]
- 
-   let joinArray = reverseArray.join(""); // let joinArray = ["o", "l", "l", "e", "h"].join("");
-   
-     return joinArray; // "olleh"
-}
- 
-reverseString("hello");
 
+
+   
+    
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
