@@ -4,7 +4,6 @@
 ## Project Name
  weather channel
 
-https://github.com/Adam1Adam1/project--one/edit/main/README.md
 
 ## Project Description
 
