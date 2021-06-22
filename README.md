@@ -124,8 +124,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| create basic HTML template | H | 3hrs| 3.5hrs | 3.5hrs |
+| flexbox for search result | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H| 3hrs| 2.5hrs | 2.5hrs |
 | create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
 | render weather info to page via DOM| H | 3hrs| 3.5hrs | 3.5hrs |
 |  create remove result function| H | 3hrs| 3.5hrs | 3.5hrs |
