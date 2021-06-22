@@ -1,4 +1,4 @@
-# project--one
+
 # Project Overview
 
 ## Project Name
@@ -17,7 +17,7 @@ We collect and process weather data from different sources such as global and lo
 https://openweathermap.org/api
 
 
-
+```
 "coord": {
         "lon": -0.1257,
         "lat": 51.5085
@@ -61,6 +61,7 @@ https://openweathermap.org/api
     "name": "London",
     "cod": 200
 }
+```
 
 ## Wireframes
 <img width="1440" alt="Screen Shot 2021-06-21 at 8 53 35 PM" src="https://user-images.githubusercontent.com/83483989/122846152-3db2ea00-d2d3-11eb-9f17-640fc0d7956f.png">
