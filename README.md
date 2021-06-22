@@ -2,13 +2,15 @@
 # Project Overview
 
 ## Project Name
-
+ weather channel
 The name of your project with deployed URL.
 
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+Access current weather data for any location including over 200,000 cities
+We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations
     
 ## API and Data Sample
 
@@ -72,7 +74,13 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
+Built with HTML, CSS, and JavaScript.
+Styled using Flexbox or Grid.
+Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
+Fulfill the build requirements you have specified in your MVP.
+Deployed site to a hosting service like Github Pages.
+Make commits to GitHub every day.
 A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 #### MVP 
@@ -81,15 +89,6 @@ A README.md file that contains your project worksheet, a link to your live, depl
 - Find and use external api 
 - Render data on page 
 - Allow user to choose favorites 
-
-Ability to search using keywords
-Displays images of that matches the keyword given
-Clicking any image gives you detailed information on how to find temp
-
-
-
-
-
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
@@ -126,6 +125,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
+| render weather info to page via DOM| H | 3hrs| 3.5hrs | 3.5hrs |
+|  create remove result function| H | 3hrs| 3.5hrs | 3.5hrs |
+| format photo appended to DOM| H | 3hrs| 3.5hrs | 3.5hrs |
+| css color and fond styling| H | 3hrs| 3.5hrs | 3.5hrs |
+| add icon to buttons | H | 3hrs| 3.5hrs | 3.5hrs |
+| media query for desktop - search| H | 3hrs| 3.5hrs | 3.5hrs |
+| | H | 3hrs| 3.5hrs | 3.5hrs |
+| | H | 3hrs| 3.5hrs | 3.5hrs |
+| | H | 3hrs| 3.5hrs | 3.5hrs |
+| | H | 3hrs| 3.5hrs | 3.5hrs |
+
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet
