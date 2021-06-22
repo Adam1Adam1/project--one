@@ -4,18 +4,14 @@
 ## Project Name
  weather channel
 
-The name of your project with deployed URL.
+https://github.com/Adam1Adam1/project--one/edit/main/README.md
 
 ## Project Description
-
-
 
 Access current weather data for any location including over 200,000 cities
 We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations
     
 ## API and Data Sample
-
-
 
 
 
@@ -70,11 +66,8 @@ https://openweathermap.org/api
 ## Wireframes
 <img width="1440" alt="Screen Shot 2021-06-21 at 8 53 35 PM" src="https://user-images.githubusercontent.com/83483989/122846152-3db2ea00-d2d3-11eb-9f17-640fc0d7956f.png">
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 ### MVP/PostMVP
-
-T
 
 
 - Find and use external api 
