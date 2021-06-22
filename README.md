@@ -134,13 +134,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description. 
+function reverseString(str) {
+   
+    let splitString = str.split(""); // let splitString = "hello".split("");
+    // ["h", "e", "l", "l", "o"]
+ 
+    let reverseArray = splitString.reverse(); // let  reverseArray = ["h", "e", "l", "l", "o"].reverse();
+    // ["o", "l", "l", "e", "h"]
+ 
+   let joinArray = reverseArray.join(""); // let joinArray = ["o", "l", "l", "e", "h"].join("");
+   
+     return joinArray; // "olleh"
 }
-```
+ 
+reverseString("hello");
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
