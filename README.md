@@ -7,8 +7,7 @@
 
 ## Project Description
 
-Access current weather data for any location including over 200,000 cities
-We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations
+user can search  current weather conditions base upon the city.after query  user will be able to see the temprature associated icon and weather condition(humidity)for in celsius  remove previous result on new saerch.
     
 ## API and Data Sample
 
@@ -72,14 +71,15 @@ We collect and process weather data from different sources such as global and lo
 
 
 ### MVP/PostMVP
--use Axios to makea request to the weather channel API
-- Render image data on page 
--Style using Flexbox
--implement responsive design 
--use a media query/breakpoint for deskcreens
-- Allow user to choose channels
-
-#### PostMVP  es.*
+- put user input from the form and pass it to api 
+- use Axios to makea request to the weather channel API
+- Render icon, city ,weather condition , data on page 
+- Style using Flexbox
+- implement responsive design 
+- use a media query/breakpoint for deskcreens
+- remove previous search and append  new search result
+ 
+#### PostMVP  
 
 - Add second API
 - Use local storage to save user favorites
@@ -115,8 +115,6 @@ We collect and process weather data from different sources such as global and lo
 | css color and fond styling| H | 4hrs| 3.5hrs | 3.5hrs |
 | add icon to buttons | H | 3.5hrs| 3.5hrs | 3.5hrs |
 | media query for desktop - search| H | 3hrs| 3.5hrs | 3.5hrs |
-
-
 | Total | H | 36.5 hrs| 5hrs | 5hrs |
 
 ## Code Snippet
