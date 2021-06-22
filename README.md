@@ -124,22 +124,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| create basic HTML template | H | 3hrs| 3.5hrs | 3.5hrs |
-| flexbox for search result | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H| 3hrs| 2.5hrs | 2.5hrs |
+| create basic HTML template | H | 5.5hrs| 3.5hrs | 3.5hrs |
+| flexbox for search result | H | 3.5hrs| 3.5hrs | 3.5hrs |
+| Working with API | H| 3hrs| 5.5hrs | 2.5hrs |
 | create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
-| render weather info to page via DOM| H | 3hrs| 3.5hrs | 3.5hrs |
-|  create remove result function| H | 3hrs| 3.5hrs | 3.5hrs |
+| render weather info to page via DOM| H | 4hrs| 3.5hrs | 3.5hrs |
+|  create remove result function| H | 2hrs| 3.5hrs | 3.5hrs |
 | format photo appended to DOM| H | 3hrs| 3.5hrs | 3.5hrs |
-| css color and fond styling| H | 3hrs| 3.5hrs | 3.5hrs |
-| add icon to buttons | H | 3hrs| 3.5hrs | 3.5hrs |
+| css color and fond styling| H | 4hrs| 3.5hrs | 3.5hrs |
+| add icon to buttons | H | 3.5hrs| 3.5hrs | 3.5hrs |
 | media query for desktop - search| H | 3hrs| 3.5hrs | 3.5hrs |
 | | H | 3hrs| 3.5hrs | 3.5hrs |
 | | H | 3hrs| 3.5hrs | 3.5hrs |
 | | H | 3hrs| 3.5hrs | 3.5hrs |
 | | H | 3hrs| 3.5hrs | 3.5hrs |
 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 36.5 hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
