@@ -89,7 +89,7 @@ A README.md file that contains your project worksheet, a link to your live, depl
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
+- Allow user to choose channels
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
