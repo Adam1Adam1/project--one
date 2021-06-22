@@ -68,10 +68,11 @@ https://openweathermap.org/api
 
 
 ### MVP/PostMVP
-
-
-- Find and use external api 
+-use Axios to makea request to the weather channel API
 - Render data on page 
+-Style using Flexbox
+-implement responsive design 
+-use a media query/breakpoint for deskcreens
 - Allow user to choose channels
 
 #### PostMVP  
