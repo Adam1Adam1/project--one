@@ -13,8 +13,12 @@ We collect and process weather data from different sources such as global and lo
 ## API and Data Sample
 
 
+[api docs](https://openweathermap.org/api)
 
-https://openweathermap.org/api
+[request](http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062)
+
+[Screen Shot 2021-06-22 at 3 53 19 PM](https://user-images.githubusercontent.com/83483989/122991672-4eb33800-d373-11eb-92af-411c5fbfbee5.png)
+
 
 
 ```
@@ -69,7 +73,7 @@ https://openweathermap.org/api
 
 ### MVP/PostMVP
 -use Axios to makea request to the weather channel API
-- Render data on page 
+- Render image data on page 
 -Style using Flexbox
 -implement responsive design 
 -use a media query/breakpoint for deskcreens
@@ -103,18 +107,15 @@ https://openweathermap.org/api
 | --- | :---: |  :---: | :---: | :---: |
 | create basic HTML template | H | 5.5hrs| 3.5hrs | 3.5hrs |
 | flexbox for search result | H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Working with API | H| 3hrs| 5.5hrs | 2.5hrs |
+| Working with API | H| 5hrs| 5.5hrs | 2.5hrs |
 | create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
 | render weather info to page via DOM| H | 4hrs| 3.5hrs | 3.5hrs |
-|  create remove result function| H | 2hrs| 3.5hrs | 3.5hrs |
+|  create remove result function| H | 4hrs| 3.5hrs | 3.5hrs |
 | format photo appended to DOM| H | 3hrs| 3.5hrs | 3.5hrs |
 | css color and fond styling| H | 4hrs| 3.5hrs | 3.5hrs |
 | add icon to buttons | H | 3.5hrs| 3.5hrs | 3.5hrs |
 | media query for desktop - search| H | 3hrs| 3.5hrs | 3.5hrs |
-| | H | 3hrs| 3.5hrs | 3.5hrs |
-| | H | 3hrs| 3.5hrs | 3.5hrs |
-| | H | 3hrs| 3.5hrs | 3.5hrs |
-| | H | 3hrs| 3.5hrs | 3.5hrs |
+
 
 | Total | H | 36.5 hrs| 5hrs | 5hrs |
 
