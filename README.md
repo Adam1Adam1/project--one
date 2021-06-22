@@ -8,14 +8,14 @@ The name of your project with deployed URL.
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
 
 Access current weather data for any location including over 200,000 cities
 We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations
     
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
 
 
 
@@ -74,18 +74,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-Built with HTML, CSS, and JavaScript.
-Styled using Flexbox or Grid.
-Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
-Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
-Fulfill the build requirements you have specified in your MVP.
-Deployed site to a hosting service like Github Pages.
-Make commits to GitHub every day.
-A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
+T
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Find and use external api 
 - Render data on page 
