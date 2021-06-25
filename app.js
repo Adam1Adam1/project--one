@@ -1,55 +1,68 @@
-const DOMAIN = "http://api.openweathermap.org/data/2.5/weather?q=newyork,usa&units=imperial&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062"
-
+const DOMAIN = 'http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062'
+const API_KEY = 'e6f94f6b65ef77aa228dfea577e80062'
 
 
 
  
 let input = document.querySelector('.search-input')
 let button = document.querySelector('.button')
-button.addEventListener("click",(e) => {
+ document.addEventListener('click',(e) => {
     e.preventDefault()
-    getWeatherData(input)
+    
 }) 
-
+function search (){
+    console.log(input.value)
+    getWeatherData(input)
+}
+   
     const getWeatherData = async (input) => {
    
     try {
-      const url= `http://api.openweathermap.org/data/2.5/weather?q=${input.value},usa&units=imperial&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062`
+      const url= `http://api.openweathermap.org/data/2.5/weather?q=${input.value},uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062`
 
       const response = await axios.get(url)
-      console.log(response)
-      let weather = response
-      function renderList(weather){
-      const section = document.querySelector('.weather')
+      console.log(response.data.search)
+      let cities = response.data.search
+      
+      function renderList(cities){
+      const section = document.querySelector('cities')
+      
+      function removeCityName() {
+        // Using a for loop, loop through each of the city name and remove it from the page.
+       for (let i = 0 ; i < cities.length ; i++){
+        cities[i].remove()
+            const div = document.createElement('div')
+            div.textContent = `${cities[i].temperature}`
+            section.appendChild(div)
+       }
+    }
+    }
 
-//         for( let i = 0; i < weather.length; i++){
-//             const div = document.createElement('div')
-//             div.textContent = `${getWeatherData[i].name}`
-//             section.appendChild(div)
+}catch (error) {
+    console.error(error)
+      }
+      }
+      
+        
+    
 //             const image = document.createElement('img')
 //             image.setAttribute('src',`${weather[i]}`)
 //             div.appendChild(image)
 //           }
-          
-//       }
-//       renderList(weather)
+    //  function removeCityName() {
+    // // 3. Using a for loop, loop through each of the city name and remove it from the page.
+    //  for (let i = 0 ; i < cities.length ; i++){
+  
+    // cities[i].remove()
+    //   }
+    // }
+    //   renderList(cities)
     
-      } 
+    //   return response
+      
+        
 
-
-    }catch (error) {
-        console.error(error)
-      }
-  } 
-  
-// //   const cityName = document.createElement('city-list')
-// // // cityName.textconten
-  
-// //   let weather = document.createElement('weather')
-
-
-
-
+    
 
 
 
@@ -63,7 +76,7 @@ button.addEventListener("click",(e) => {
     //  weather = document.querySelector("weather")
     //  weather = data.weather.main;
     // ".temp".append(temperature)
-    // ".weather".append(getWeatherData)
+    // ".weather".append(getWeatherData
 
     
 
@@ -157,4 +170,4 @@ button.addEventListener("click",(e) => {
 //     const div = document.createElement('div')
 //     div.textContent = `${WCtemp[i].Title}`
 //     section.appendChild(div)}
-        
+      
