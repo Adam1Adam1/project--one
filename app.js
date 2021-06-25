@@ -1,38 +1,91 @@
-const DOMAIN = "http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062"
-const API_KEY = "e6f94f6b65ef77aa228dfea577e80062"
-const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`
-console.log(BASE_URL)
+const DOMAIN = "http://api.openweathermap.org/data/2.5/weather?q=newyork,usa&units=imperial&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062"
 
-document.addEventListener("load",() => {
-    let lon = document.createElement("lon")
-    let lat = document.createElement("lat")
-    let temperatureDegree = document.querySelector(".temperature-degree")
-    let locationTimezone = document.querySelector(".location-timezone")
-    longitude = document.querySelector("lon")
-    latitude = document.querySelector("lat")
 
-    if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(position => {
-            lon = position.coords.longitude;
-            lat =position.coords.latitude;
 
-            temperature(data.currently);
+
+ 
+let input = document.querySelector('.search-input')
+let button = document.querySelector('.button')
+button.addEventListener("click",(e) => {
+    e.preventDefault()
+    getWeatherData(input)
+}) 
+
+    const getWeatherData = async (input) => {
+   
+    try {
+      const url= `http://api.openweathermap.org/data/2.5/weather?q=${input.value},usa&units=imperial&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062`
+
+      const response = await axios.get(url)
+      console.log(response)
+      let weather = response
+      function renderList(weather){
+      const section = document.querySelector('.weather')
+
+//         for( let i = 0; i < weather.length; i++){
+//             const div = document.createElement('div')
+//             div.textContent = `${getWeatherData[i].name}`
+//             section.appendChild(div)
+//             const image = document.createElement('img')
+//             image.setAttribute('src',`${weather[i]}`)
+//             div.appendChild(image)
+//           }
+          
+//       }
+//       renderList(weather)
+    
+      } 
+
+
+    }catch (error) {
+        console.error(error)
+      }
+  } 
+  
+// //   const cityName = document.createElement('city-list')
+// // // cityName.textconten
+  
+// //   let weather = document.createElement('weather')
+
+
+
+
+
+
+
+    // let weather = document.createElement("weather")
+    // let temperature = document.createElement(".temp")
+    // let cities = document.createElement(".cities")
+    //  temperature.addEventListener(click ,() => {
+     
+    //     temperatureDegree = document.querySelector(".temperature-degree")
+    //  temperature = document.querySelector("temp")
+    //  weather = document.querySelector("weather")
+    //  weather = data.weather.main;
+    // ".temp".append(temperature)
+    // ".weather".append(getWeatherData)
+
+    
+
+
+        
+        
            
-            const weatherInfo = async() => {
+            // const weatherInfo = async() => {
 
-                try {
-                   const getWeatherData =`"http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062"${lon},${lat}`
+            //     try {
+            //        const getWeatherData =`"http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062"${lon},${lat}`
                 
-                const response = await axios.get(getWeatherData)
-                console.log(response)
-                temperature = response.data.main.temperature
+            //     const response = await axios.get(getWeatherData)
+            //     console.log(response)
+            //     temperature = response.data.main.temperature
                 
-                console.log(temperature)
-                }catch(error){
-                    console.log(error)
+            //     console.log(temperature)
+            //     }catch(error){
+            //         console.log(error)
                 
-                }
-                }
+                // }
+                // }
             // const proxy = "https://cors-anywhere.herokuapp.com/";
 
             // const api =`${proxy}http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062/${lat},${lon}`;
@@ -43,22 +96,22 @@ document.addEventListener("load",() => {
             //     .then(data => {
             //         console.log(data);
              
-                })
-            }
-        })
-        weatherInfo();
+                
+            
+        
+        // weatherInfo();
 
-        function data(temperature){
-            console.log(data);
-        //    let WCImg=` http://openweathermap.org/img/wn/${icon}.png`
-           temperature = document.createElement("temp")
-          let weather = document.createElement("weather")
-            // img.setAttribute("src",WCImg)
-             temperature = document.querySelector("temp")
-             weather = document.querySelector("weather")
-             weather = data.weather.main;
-            ".temp".append(temperature)
-            ".weather".append(getWeatherData)
+        // function data(temperature){
+        //     console.log(data);
+        // //    let WCImg=` http://openweathermap.org/img/wn/${icon}.png`
+           
+          
+        //     // img.setAttribute("src",WCImg)
+        //      temperature = document.querySelector("temp")
+        //      weather = document.querySelector("weather")
+        //      weather = data.weather.main;
+        //     ".temp".append(temperature)
+        //     ".weather".append(getWeatherData)
         
 
 
@@ -79,11 +132,11 @@ document.addEventListener("load",() => {
 // }
 // weatherInfo();
 
-let input = document.querySelector('.search-input')
-let button = document.querySelector('.wc-button')
+// let input = document.querySelector('.search-input')
+// let button = document.querySelector('.wc-button')
 
-function search (){
-    console.log(input.value)
+// function search (){
+//     console.log(input.value)
 
 // function data(temp){
 //     console.log(data);
@@ -99,9 +152,9 @@ function search (){
 
 // }
 
-}
+
 // for( let i = 0; i< cities.length; i++){
 //     const div = document.createElement('div')
 //     div.textContent = `${WCtemp[i].Title}`
 //     section.appendChild(div)}
-        }
+        
