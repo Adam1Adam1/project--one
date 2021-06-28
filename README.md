@@ -7,7 +7,7 @@
 
 ## Project Description
 
-user can search  current weather conditions base upon the city.after query  user will be able to see the temprature associated icon and weather condition(humidity)for in celsius  remove previous result on new saerch.
+user can search  current weather  base upon the city which they live in , user will be able to see the temprature associated icon and temperature degree  in fahreheit , remove previous result on new saerch.
     
 ## API and Data Sample
 
@@ -76,7 +76,6 @@ user can search  current weather conditions base upon the city.after query  user
 - Render icon, city ,weather condition , data on page 
 - Style using Flexbox
 - implement responsive design 
-- use a media query/breakpoint for deskcreens
 - remove previous search and append  new search result
  
 #### PostMVP  
@@ -89,11 +88,11 @@ user can search  current weather conditions base upon the city.after query  user
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 23| Pseudocode / actual code | Incomplete
-|June 24| Initial Clickable Model  | Incomplete
-|June 25| MVP | Incomplete
+|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | complete
+|June 23| Pseudocode / actual code | complete
+|June 24| Initial Clickable Model  | complete
+|June 25| MVP |complete
 |June 28| Presentations | Incomplete
 
 ## Priority Matrix
@@ -107,15 +106,15 @@ user can search  current weather conditions base upon the city.after query  user
 | --- | :---: |  :---: | :---: | :---: |
 | create basic HTML template | H | 5.5hrs| 3.5hrs | 3.5hrs |
 | flexbox for search result | H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Working with API | H| 5hrs| 5.5hrs | 2.5hrs |
+| Working with API | H| 5hrs| 5.5hrs | 4.5hrs |
 | create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
-| render weather info to page via DOM| H | 4hrs| 3.5hrs | 3.5hrs |
-|  create remove result function| H | 4hrs| 3.5hrs | 3.5hrs |
-| format photo appended to DOM| H | 3hrs| 3.5hrs | 3.5hrs |
-| css color and fond styling| H | 4hrs| 3.5hrs | 3.5hrs |
+| render weather info to page via DOM| H | 4hrs| 3.5hrs | 5.5hrs |
+|  create remove result function| H | 4hrs| 3.5hrs | 4.5hrs |
+| format photo appended to DOM| H | 3hrs| 3.5hrs | 4.5hrs |
+| css color and fond styling| H | 4hrs| 3.5hrs | 6.5hrs |
 | add icon to buttons | H | 3.5hrs| 3.5hrs | 3.5hrs |
-| media query for desktop - search| H | 3hrs| 3.5hrs | 3.5hrs |
-| Total | H | 36.5 hrs| 5hrs | 5hrs |
+| 
+| Total | H | 39.5 hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
