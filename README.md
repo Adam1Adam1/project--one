@@ -107,7 +107,7 @@ user can search  current weather  base upon the city which they live in , user w
 | create basic HTML template | H | 5.5hrs| 3.5hrs | 3.5hrs |
 | flexbox for search result | H | 3.5hrs| 3.5hrs | 3.5hrs |
 | Working with API | H| 5hrs| 5.5hrs | 4.5hrs |
-| create click event for search bar info | H | 3hrs| 3.5hrs | 3.5hrs |
+| create click event for search bar | H | 3hrs| 3.5hrs | 3.5hrs |
 | render weather info to page via DOM| H | 4hrs| 3.5hrs | 5.5hrs |
 |  create remove result function| H | 4hrs| 3.5hrs | 4.5hrs |
 | format photo appended to DOM| H | 3hrs| 3.5hrs | 4.5hrs |

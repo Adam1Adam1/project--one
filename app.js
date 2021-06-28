@@ -32,9 +32,7 @@ search(input)
       const div = document.createElement('div')
       div.textContent = `${cities.temp}`
       section.appendChild(div)
-      // const = document.createElement("p")
-      // p.textContent = value.main["humitity"]
-      // section.appendChild("p")
+      
       }
         
     renderList(cities)
