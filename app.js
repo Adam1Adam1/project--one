@@ -1,6 +1,7 @@
 const DOMAIN = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=e6f94f6b65ef77aa228dfea577e80062&e6f94f6b65ef77aa228dfea577e80062'
 const API_KEY = 'e6f94f6b65ef77aa228dfea577e80062'
 
+let input = document.querySelector('#blank') 
 const section = document.querySelector('.city-list')
 let form =document.querySelector("form")
 form.addEventListener('click', (e)=> {
@@ -33,27 +34,15 @@ search(input)
       div.textContent = `${cities.temp}`
       section.appendChild(div)
       
-      }
+
+}
         
     renderList(cities)
     return response
 
-    }catch (error) {
-        console.log(error)
-          }   
-        
-
-            
-      
-           
-        
+   
     
-  
-
-        
-    
-
-
-        
-        
- }
+}catch (error) {
+  console.log(error)
+    }   
+  }
