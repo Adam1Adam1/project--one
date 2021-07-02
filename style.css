@@ -16,12 +16,8 @@ body{
     align-items:center;
 }
 #weather  {
-    /* height: 20vh;
-    width:20%;
-    display:flex;
-    justify-content: space-around;
-    align-items: center; */
-    color:rgb(250, 151, 98);
+    
+    color:black;
    text-align: center;
 
      }
